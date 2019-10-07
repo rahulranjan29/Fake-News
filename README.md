@@ -4,21 +4,21 @@ This work was done in short duration  on Liar Plus dataset. All instructions to 
 
 Python Version >=3.5
 
-libraries required :pandas,sklearn, nltk,pytorch,torchtext
+libraries required :pandas,sklearn, nltk, pytorch, torchtext
 
 install spacy via--> -pip install spacy && python -m spacy download en
 
-download Glove 300d embeddings->http://nlp.stanford.edu/data/glove.840B.300d.zip\\
+download Glove 300d embeddings->http://nlp.stanford.edu/data/glove.840B.300d.zip
 download Glove 100d embeddings->http://nlp.stanford.edu/data/glove.6B.zip
 
 *** TO CREATE MODIFIED DATA ****
 
-OPEN new.py
+1. OPEN new.py
 
-set values of variables as described below:
-train_data-> path to LIAR_PLUS train2.csv
-val_data-> path to LIAR_PLUS val2.csv
-train_data-> path to LIAR_PLUS test2.csv
+2.set values of variables as described below:
+ 1.train_data-> path to LIAR_PLUS train2.csv
+ 2.val_data-> path to LIAR_PLUS val2.csv
+ 3.train_data-> path to LIAR_PLUS test2.csv
 
 {{** Two statements with index 2142,9375 did not had values corressponding to barely true counts, \
 false counts , half true counts, mostly true counts, pants of fire counts so they have been dropped**}}
