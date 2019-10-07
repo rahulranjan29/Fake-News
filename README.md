@@ -12,6 +12,7 @@ download Glove 300d embeddings->http://nlp.stanford.edu/data/glove.840B.300d.zip
 download Glove 100d embeddings->http://nlp.stanford.edu/data/glove.6B.zip
 
 *** TO CREATE MODIFIED DATA ****
+
 OPEN new.py
 
 set values of variables as described below:
@@ -25,6 +26,7 @@ false counts , half true counts, mostly true counts, pants of fire counts so the
 
 
 ***FOR MULTICLASS CLASSIFICATION***
+
 embed_path= Path to 100d embedding file
 train_path= path to csv file after running new.py
 val_path= path to csv file after running new.py
@@ -44,7 +46,8 @@ Go to folder SMJ(Binary):
 if you want to use CNN Model->
 
 embed_path= path to 300d glove word embeddings
-python train.py --embed_path --train_path --val_path --test_path   ## SHOULD GET A VALUE AROUND 64.9%
+
+python train.py --embed_path --train_path --val_path --test_path ## SHOULD GET A VALUE AROUND 64.9%
 
 
 
@@ -58,6 +61,7 @@ python binary_train.py --embed_path --train_path --val_path --test_path ## SHOUL
 
 
 ******MY MACHINE CONFIGURATION *********
+
 Ram: 8GB
 GPU: Nvidia GeForce 1050Ti (4GB)
 
