@@ -8,7 +8,7 @@ libraries required :pandas,sklearn, nltk,pytorch,torchtext
 
 install spacy via--> -pip install spacy && python -m spacy download en
 
-download Glove 300d embeddings->http://nlp.stanford.edu/data/glove.840B.300d.zip
+download Glove 300d embeddings->http://nlp.stanford.edu/data/glove.840B.300d.zip\\
 download Glove 100d embeddings->http://nlp.stanford.edu/data/glove.6B.zip
 
 *** TO CREATE MODIFIED DATA ****
